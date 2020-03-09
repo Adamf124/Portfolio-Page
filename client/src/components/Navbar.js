@@ -4,8 +4,8 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
-                    <a className="navbar-brand" href="#">Navbar</a>
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end d-none d-lg-flex">
+                    <a className="navbar-brand" href="#">Adam Ferguson</a>
                     <button 
                     className="navbar-toggler" 
                     type="button" 

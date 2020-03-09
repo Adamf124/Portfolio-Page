@@ -7,9 +7,12 @@ export default class Splashpage extends Component {
     render() {
         return (
             <div className="App">
-            <header className="App-header">
-                <Navbar/>
-              </header>
+                <header className="App-header">
+                    <Navbar/>
+                </header>
+                <div className='splash'>
+                    Welcome 
+                </div>
             </div>
         )
     }
