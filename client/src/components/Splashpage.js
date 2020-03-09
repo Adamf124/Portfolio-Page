@@ -11,7 +11,7 @@ export default class Splashpage extends Component {
                     <Navbar/>
                 </header>
                 <div className='splash'>
-                    Welcome 
+                    <div className="welcome-mat"><h1 className="welcome-text">WELCOME</h1></div>
                 </div>
             </div>
         )
