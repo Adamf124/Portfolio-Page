@@ -9,22 +9,44 @@
     color: white;
 }
 .welcome-mat{
-    /* display: inline-block; */
+    
+    text-align:start;
     /* top: 0px; */
     /* left: 0px; */
-    border: solid yellow;
+    /* border: solid yellow; */
     /* width: 25vw; */
+    padding: 10px;
     height: auto;
     word-wrap: break-word;
-    /* font-family:'NexaDemo-Bold'; */
+    font-family:'NexaDemo-Bold';
 }
 .welcome-text{
     font-size: 4em;
 }
 .welcome-text-sm{
-    border:solid red 3px;
+    display: inline-block;
+    /* border:solid red 3px; */
     height: 100vh;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    margin: 0 0 0 0;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+
+#about{
+    border: solid olive 2px;
+    height: 100vh;
+}
+#projects{
+    border: solid olive 2px;
+    height: 100vh;
+}
+#social{
+    border: solid olive 2px;
+    height: 100vh;
+}
+#contact-me{
+    border: solid olive 2px;
+    height: 100vh;
 }
